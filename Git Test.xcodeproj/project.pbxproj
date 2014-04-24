@@ -21,6 +21,7 @@
 		79E3C04B1909D13C00E7869E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E3C02D1909D13C00E7869E /* UIKit.framework */; };
 		79E3C0531909D13C00E7869E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79E3C0511909D13C00E7869E /* InfoPlist.strings */; };
 		79E3C0551909D13C00E7869E /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E3C0541909D13C00E7869E /* Git_TestTests.m */; };
+		79E3C0601909D39400E7869E /* GNTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E3C05F1909D39300E7869E /* GNTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		79E3C0501909D13C00E7869E /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		79E3C0521909D13C00E7869E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79E3C0541909D13C00E7869E /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		79E3C05E1909D39300E7869E /* GNTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GNTest.h; path = ../GNTest.h; sourceTree = "<group>"; };
+		79E3C05F1909D39300E7869E /* GNTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GNTest.m; path = ../GNTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				79E3C03B1909D13C00E7869E /* Main.storyboard */,
 				79E3C03E1909D13C00E7869E /* GNViewController.h */,
 				79E3C03F1909D13C00E7869E /* GNViewController.m */,
+				79E3C05E1909D39300E7869E /* GNTest.h */,
+				79E3C05F1909D39300E7869E /* GNTest.m */,
 				79E3C0411909D13C00E7869E /* Images.xcassets */,
 				79E3C0301909D13C00E7869E /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E3C0601909D39400E7869E /* GNTest.m in Sources */,
 				79E3C0361909D13C00E7869E /* main.m in Sources */,
 				79E3C0401909D13C00E7869E /* GNViewController.m in Sources */,
 				79E3C03A1909D13C00E7869E /* GNAppDelegate.m in Sources */,
